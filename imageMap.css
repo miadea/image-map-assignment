@@ -1,0 +1,69 @@
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=Dosis:300');
+
+html body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Dosis', sans-serif;
+	background-color: black;
+}
+
+.header {
+	display: flex;
+	background-color: black;
+	height: 15vh;
+	align-items: center;
+	justify-content: center;
+}
+
+.header .title {
+	color: white;
+	font-size: 3rem;
+	word-spacing: 2rem;
+}
+
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: black;
+}
+
+.imgStyle {
+	height: 500px;
+	width: 700px;
+	position: relative;
+}
+
+.imgStyle .bottomImg {
+	width: 100%;
+	height: 100%;
+}
+
+.imgStyle .topImg {
+	width: 100%;
+	height: 100%;
+}
+
+.absoluteImgStyle {
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.absoluteImgStyle:hover {
+	opacity: 1;
+}
+
+.subheader {
+	text-decoration: none;
+	color: white;
+	font-size: 2rem;
+}
+
+.subheader:hover {
+	color: green;
+}
